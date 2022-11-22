@@ -5,7 +5,10 @@
 
 body {
     position: relative;
-    background: rgba(26, 74, 96, 0.8);
+    /* background: rgba(26, 74, 96, 0.8); */
+    background: url(pattern.jpg);
+    /* background: url(leavess.svg); */
+    width: 100%;
 }
 
 .sign-up {
@@ -33,7 +36,7 @@ body {
     height: 70px;
     left: 40px;
     top: 100px;
-    font-family: monospace;
+    font-family: 'Patrick Hand',monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -222,7 +225,7 @@ body {
     left: 125px;
     width: 100px;
     height: 30px;
-    font-family: monospace;
+    font-family: 'Patrick Hand',monospace;
     font-size: 1.1rem;
     font-weight: bolder;
     letter-spacing: 2px;
@@ -262,6 +265,10 @@ body {
 form{
     position: absolute;
     top: -45px;
+}
+
+input::placeholder{
+    font-family: 'Patrick Hand',monospace;
 }
 
 .accountExist{
@@ -310,6 +317,8 @@ form{
     top: 500px;
     width: 800px;
     height: 30px;
+    color: #000000;
+    font-weight: 400;
 }
 
 @media screen and (max-width:1200px){
