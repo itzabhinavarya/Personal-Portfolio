@@ -367,7 +367,7 @@ form{
 }
 @media screen and (max-width:440px){
     .sign-up{
-        left: 1%;
+        left: 0;
         width: 500px;
     }
     #getting-started{
@@ -406,7 +406,7 @@ form{
 }
 @media screen and (max-width:390px){
     .sign-up{
-        left: 1%;
+        left: 0;
         width: 500px;
     }
     #getting-started{
@@ -445,7 +445,7 @@ form{
 }
 @media screen and (max-width:250px){
     .sign-up{
-        left: 1%;
+        left: 0;
         width: 500px;
     }
     #getting-started{
@@ -484,7 +484,7 @@ form{
 }
 @media screen and (max-width:150px){
     .sign-up{
-        left: 1%;
+        left: 0;
         width: 500px;
     }
     #getting-started{
