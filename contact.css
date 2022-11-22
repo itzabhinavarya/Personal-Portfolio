@@ -47,8 +47,8 @@ body {
     position: absolute;
     width: 400px;
     height: 320px;
-    top: 175px;
-    left: 0px;
+    top: 190px;
+    left: 0;
 }
 
 .main-img img {
@@ -56,7 +56,7 @@ body {
     width: 403px;
     height: 320px;
     position: absolute;
-    left: 0;
+    left: 10;
     top: 0;
     z-index: 9;
 }
@@ -68,7 +68,7 @@ body {
     position: absolute;
     left: 330px;
     height: 500px;
-    border-radius: 28px;
+    border-radius: 18px;
 }
 
 .form p {
@@ -297,31 +297,38 @@ form{
     height: 30px;
 }
 
-
-
-@media screen and (max-width:1000px){
-    .sign-up{
-        left: 10%;
-    }
-}
-@media screen and (max-width:960px){
-    .sign-up{
-        left: 8%;
-    }
-}
-@media screen and (max-width:760px){
+@media screen and (max-width:1200px){
     .sign-up{
         left: 6%;
     }
 }
-@media screen and (max-width:560px){
+
+@media screen and (max-width:1000px){
     .sign-up{
         left: 4%;
     }
 }
+@media screen and (max-width:900px){
+    .sign-up{
+        left: 0;
+    }
+}
+@media screen and (max-width:760px){
+    .sign-up{
+        /* left: 6%; */
+        left: 0;
+    }
+}
+@media screen and (max-width:560px){
+    .sign-up{
+        /* left: 4%; */
+        left: 0;
+    }
+}
 @media screen and (max-width:500px){
     .sign-up{
-        left: 1%;
+        /* left: 1%; */
+        left: 0;
         width: 500px;
     }
     #getting-started{
