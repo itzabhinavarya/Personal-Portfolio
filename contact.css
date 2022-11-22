@@ -21,10 +21,10 @@ body {
 
 .sign-up img {
     position: absolute;
-    width: 90px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     left: 5px;
-    top: 10px;
+    top: 7px;
 }
 
 .sign-up p {
@@ -56,9 +56,24 @@ body {
     width: 403px;
     height: 320px;
     position: absolute;
-    left: 10;
+    left: 5px;
     top: 0;
     z-index: 9;
+}
+
+.main-img img:nth-child(1){
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 100px;
+    height: 100px;
+}
+.main-img img:nth-child(2){
+    position: absolute;
+    left: 115px;
+    top: 145px;
+    width: 100px;
+    height: 100px;
 }
 
 .form {
