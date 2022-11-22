@@ -48,15 +48,15 @@ body {
     width: 400px;
     height: 320px;
     top: 175px;
-    left: 15px;
+    left: 0px;
 }
 
 .main-img img {
     /* transform: matrix(0.99, -0.16, 0.17, 0.99, 0, 0); */
-    width: 315px;
-    height: 315px;
+    width: 403px;
+    height: 320px;
     position: absolute;
-    left: 70px;
+    left: 0;
     top: 0;
     z-index: 9;
 }
